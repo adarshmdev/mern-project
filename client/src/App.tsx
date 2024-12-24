@@ -6,6 +6,7 @@ import LoginPage from './pages/publicPages/LoginPage'
 import RegisterPage from './pages/publicPages/RegisterPage'
 import AboutPage from './pages/publicPages/AboutPage'
 import FAQPage from './pages/publicPages/FAQPage'
+import SearchResultsPage from './pages/publicPages/HostelsPage.js'
 
 const App = () =>{
   return (
@@ -17,6 +18,7 @@ const App = () =>{
         <Route path='/register' element={<RegisterPage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/faq' element={<FAQPage />} />
+        <Route path='/hostels' element={<SearchResultsPage />} />
       </Routes>
     </Router>
   )
